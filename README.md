@@ -2,8 +2,6 @@
 
 <div align="center">
 
-![AutoFormX Logo](icons/icon128.png)
-
 **使用AI智能填写表单，快速生成测试数据，提高测试效率**
 
 </div>
@@ -12,7 +10,7 @@
 
 - 🤖 **AI智能识别** - 自动识别表单字段类型（姓名、邮箱、电话、地址等）
 - 🎯 **双模式填写** - 支持单字段填写和一键填写整个表单
-- 🔧 **多厂商支持** - 支持DeepBricks、OpenAI等多个AI服务商
+- 🔧 **多厂商支持** - 支持 DeepSeek、OpenAI 等多个AI服务商
 - 🎨 **现代化UI** - 美观简洁的用户界面，不影响原页面布局
 - ⚡ **高效便捷** - 为测试人员量身打造，大幅提升工作效率
 - 🔒 **安全可靠** - API密钥本地加密存储，保护隐私安全
@@ -103,14 +101,14 @@ AutoFormX与多个领先的AI服务商合作，为用户提供强大的数据生
 
 | 厂商 | 官网 | 优势 |
 |------|------|------|
-| <img src="https://www.deepbricks.ai/favicon.ico" width="20" height="20"/> **DeepBricks** | [deepbricks.ai](https://www.deepbricks.ai/) | 国内API，低延迟，支持多种模型 |
-| <img src="https://platform.openai.com/favicon.ico" width="20" height="20"/> **OpenAI** | [openai.com](https://platform.openai.com/) | 领先的GPT模型，性能稳定 |
-| <img src="https://cloud.siliconcloud.cn/favicon.ico" width="20" height="20"/> **SiliconCloud** | [siliconcloud.cn](https://cloud.siliconcloud.cn/) | 高性价比，支持开源大模型 |
-| <img src="https://api.nebius.ai/favicon.ico" width="20" height="20"/> **Nebius AI** | [nebius.ai](https://nebius.ai/) | 多模型支持，API成本低 |
-| <img src="https://www.xfyun.cn/favicon.ico" width="20" height="20"/> **讯飞星火** | [xfyun.cn](https://www.xfyun.cn/) | 中文理解能力强，响应快 |
-| <img src="https://dashscope.aliyun.com/favicon.ico" width="20" height="20"/> **通义千问** | [dashscope.aliyun.com](https://dashscope.aliyun.com/) | 阿里云，功能完整，性价比高 |
-| <img src="https://api.deepseek.com/favicon.ico" width="20" height="20"/> **DeepSeek** | [deepseek.com](https://www.deepseek.com/) | 国产创新模型，成本低廉 |
-| <img src="https://ai.baidu.com/favicon.ico" width="20" height="20"/> **百度千帆** | [ai.baidu.com](https://ai.baidu.com/) | 国内大厂，生态完整 |
+| **DeepSeek** | [deepseek.com](https://www.deepseek.com/) | 国产创新模型，成本低廉 |
+| **OpenAI** | [openai.com](https://platform.openai.com/) | 领先的GPT模型，性能稳定 |
+| **SiliconCloud** | [siliconcloud.cn](https://cloud.siliconcloud.cn/) | 高性价比，支持开源大模型 |
+| **通义千问** | [dashscope.aliyun.com](https://dashscope.aliyun.com/) | 阿里云，功能完整，性价比高 |
+| **讯飞星火** | [xfyun.cn](https://www.xfyun.cn/) | 中文理解能力强，响应快 |
+| **Nebius AI** | [nebius.ai](https://nebius.ai/) | 多模型支持，API成本低 |
+| **百度千帆** | [ai.baidu.com](https://ai.baidu.com/) | 国内大厂，生态完整 |
+| **DeepBricks** | [deepbricks.ai](https://www.deepbricks.ai/) | 国内API，低延迟，支持多种模型 |
 
 > 💡 **提示**: 您可以配置任何兼容OpenAI API格式的服务商。选择"自定义"模式即可使用其他厂商的API。
 
@@ -161,15 +159,15 @@ AutoFormX/
 
 ## 📝 API配置指南
 
-### DeepBricks API
+### DeepSeek API
 
-1. 访问 [DeepBricks官网](https://www.deepbricks.ai/)
+1. 访问 [DeepSeek 开放平台](https://platform.deepseek.com/)
 2. 注册账号并获取API Key
 3. 在扩展设置中配置：
-   - Provider: DeepBricks
-   - API Base URL: `https://api.deepbricks.ai/v1`
+   - Provider: DeepSeek
+   - API Base URL: `https://api.deepseek.com/v1`
    - API Key: 您的密钥
-   - Model: `gpt-4-turbo`
+   - Model: `deepseek-chat`
 
 ### OpenAI API
 
@@ -183,23 +181,19 @@ AutoFormX/
 
 ## 🤝 贡献指南
 
-欢迎提交Issue和Pull Request！
+AutoFormX 目前暂未开放源码，暂不接受 Pull Request。
 
-1. Fork本仓库
-2. 创建特性分支 (`git checkout -b feature/AmazingFeature`)
-3. 提交更改 (`git commit -m 'Add some AmazingFeature'`)
-4. 推送到分支 (`git push origin feature/AmazingFeature`)
-5. 创建Pull Request
+如果您在使用过程中遇到问题，或有功能建议，欢迎通过 [GitHub Issues](https://github.com/qitest/AutoFormX/issues) 反馈。
 
 ## 📄 许可证
 
-本项目采用 MIT 许可证 - 详见 [LICENSE](LICENSE) 文件
+AutoFormX 目前暂未开放源码，所有权利由项目作者保留。未经授权，请勿复制、分发或反向工程本项目相关代码与资源。
 
 ## 🙏 致谢
 
 - 感谢所有贡献者
 - 感谢AI技术的支持
-- 感谢开源社区
+- 感谢所有用户的反馈与建议
 
 ## 📮 联系方式
 
